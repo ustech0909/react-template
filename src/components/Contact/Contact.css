@@ -1,0 +1,23 @@
+.contact-info {
+  margin-top: 32px;
+}
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 22px;
+}
+.contact-icon {
+  color: #9b59b6;
+  font-size: 1.3rem;
+  margin-right: 12px;
+  margin-top: 2px;
+}
+.contact-label {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+.contact-details {
+  color: #222;
+  font-size: 1rem;
+}

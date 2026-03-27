@@ -1,0 +1,4 @@
+.custom-navbar-bg {
+  background: linear-gradient(135deg, #2d2346 60%, #6c3bb8 100%) !important;
+  border-bottom: 1.5px solid #4b2e83;
+}

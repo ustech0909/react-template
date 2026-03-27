@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navbar.css';
 
 
 const Navbar = () => {
@@ -18,15 +19,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <nav className="navbar navbar-expand-lg navbar-dark py-3 custom-navbar-bg">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">VEHICULA</a>
+        <a className="navbar-brand fw-bold" href="/">VEHICULA</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="mainNav">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item"><a className="nav-link" href="#home">HOME</a></li>
+            <li className="nav-item"><a className="nav-link" href="/">HOME</a></li>
             <li className="nav-item"><a className="nav-link" href="#services">SERVICES</a></li>
             <li className="nav-item"><a className="nav-link" href="#whatwedo">WHAT WE DO</a></li>
             <li className="nav-item"><a className="nav-link" href="#blog">BLOG</a></li>

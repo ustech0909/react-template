@@ -33,7 +33,7 @@ const WhatWeDo = () => (
           <div className="p-4 bg-light rounded">
             <h6 className="fw-bold mb-2">Odio nibh pellentesque ligula</h6>
             <p>Mauris pharetra ante mauris porta varius nunc tempor erat non fringilla.</p>
-            <a href="#" className="btn btn-outline-primary">Read More</a>
+            <button className="btn btn-outline-primary" type="button">Read More</button>
           </div>
         </div>
       ))}
