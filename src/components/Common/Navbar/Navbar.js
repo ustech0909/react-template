@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark py-3 custom-navbar-bg">
       <div className="container">
-        <a className="navbar-brand fw-bold" href="/">VEHICULA</a>
+        <a className="navbar-brand fw-bold" href="https://043raviranjan.github.io/react-templat/">VEHICULA</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
           <span className="navbar-toggler-icon"></span>
         </button>
