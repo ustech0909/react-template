@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename="/react-templat">
+    <Router basename="/react-template">
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/blog/:id" element={<BlogDetails />} />
